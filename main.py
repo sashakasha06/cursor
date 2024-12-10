@@ -4,7 +4,7 @@ pygame.init()
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Курсор')
-cursor_image = pygame.image.load('arrow.png')
+cursor_image = pygame.image.load('data/arrow.png')
 pygame.mouse.set_visible(False)
 draw = False
 running = True
